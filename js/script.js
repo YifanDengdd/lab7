@@ -1,6 +1,6 @@
 function init(){
   function clickAlertme(){
-    var text = document.getElementById("entryinput").ariaValueMax;
+    var text = document.getElementById("entryinput").value;
     alert("Yifan Deng:" + text);
     document.getElementById("textoutput").innerHTML = text;
   }
